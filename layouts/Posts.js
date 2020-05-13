@@ -121,11 +121,11 @@ cursor: pointer;
 text-align: center;
 background-color: #FFD400;
 color: #FFFFFF;
-border-color: #6e6e6e;
+margin-left: -48px;
+border-radius: 0px 10px 10px 0px;
 
 &:hover {
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    transform: translate(0, -2px);
   background-color: #00A0E4;
 }
 `;
+

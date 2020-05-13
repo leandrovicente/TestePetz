@@ -17,7 +17,7 @@ type Props = {
 const Page = ({ children, title, ...restProps }: Props) => (
   <div {...restProps}>
     <Head>
-      <title>{title || 'Placeholder'}</title>
+      <title>{title || 'Teste Petz'}</title>
     </Head>
     {children}
   </div>

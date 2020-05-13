@@ -14,12 +14,9 @@ function remove(data) {
 }
 
 export default ({ posts, user }: Props) => (
-  <Wrapper>
-  
+  <Wrapper> 
     <Header />
-   
-    <PostsContained>
-   
+    <PostsContained>  
       <Title>
         <span>posts from</span>
         <h1>{user.name}</h1>
@@ -32,8 +29,7 @@ export default ({ posts, user }: Props) => (
         <Button type="button" onClick={ () => remove(posts.id)  } >
             Deletar
      </Button>
-    </PostsContained>
-    
+    </PostsContained>   
     <Footer />
   </Wrapper>
 );
