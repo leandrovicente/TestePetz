@@ -19,7 +19,7 @@
 - Necessario fazer um clone do  repositório
 - Depois executar os comandos abaixo :
 ```sh
-$ cd testspetz
+$ cd TestePetz
 $ yarn
 $ yarn dev
 ```
